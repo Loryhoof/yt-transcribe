@@ -1,5 +1,6 @@
 import fetch from "node-fetch"; // To make HTTP requests
 import { DOMParser } from "xmldom"; // To parse XML data
+import he from "he"; // To decode HTML entities
 
 /**
  * Transcribes the captions from a YouTube video.
@@ -48,8 +49,11 @@ async function transcribe(videoUrl) {
       transcript += texts[i].textContent + " ";
     }
 
+    // Decode HTML entities in the transcript
+    const decodedTranscript = he.decode(transcript.trim());
+
     // Return the transcript as a JSON object
-    return { transcript: transcript.trim() };
+    return { transcript: decodedTranscript };
   } catch (error) {
     // Log any errors that occur during the process
     console.error("Error:", error.message);
