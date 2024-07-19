@@ -1,0 +1,50 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm/
+
+# Optional REPL history
+.node_repl_history
+
+# dotenv environment variable files
+.env
+
+# Babel cache
+.babelrc
+.babelrc.js
+.babelrc.json
+babel.config.js
+babel.config.json
+
+# Webpack cache
+.webpack/
+
+# ESLint cache
+.eslintcache
+
+# Miscellaneous
+.DS_Store
+*.log
+logs/
+test.js
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

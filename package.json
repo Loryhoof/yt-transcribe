@@ -1,0 +1,27 @@
+{
+  "name": "yt-transcribe",
+  "version": "1.0.0",
+  "description": "A simple Node.js library to transcribe YouTube video captions",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "youtube",
+    "transcribe",
+    "captions",
+    "node",
+    "library"
+  ],
+  "author": "Kevin Klatt <klattkev@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "xmldom": "^0.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Loryhoof/yt-transcribe.git"
+  }
+}
