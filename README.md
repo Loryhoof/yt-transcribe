@@ -4,7 +4,7 @@ A simple Node.js library to transcribe YouTube video captions.
 
 ## Description
 
-`yt-transcribe` allows you to fetch and transcribe captions from YouTube videos programmatically. It uses `node-fetch` to make HTTP requests and `xmldom` to parse XML data.
+`yt-transcribe` allows you to fetch and transcribe captions from YouTube videos programmatically. It uses `node-fetch` to make HTTP requests, `xmldom` to parse XML data and `he` to decode special characters.
 
 ## Installation
 
