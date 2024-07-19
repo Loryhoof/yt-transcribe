@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
+    "moduleResolution": "bundler",
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "allowImportingTsExtensions": true,
+    "strict": true,
+    "exactOptionalPropertyTypes": true
+  }
+}
