@@ -86,7 +86,3 @@ async function transcribe(videoUrl: string) {
 
 // Export the transcribe function for use in other modules
 export { transcribe };
-
-transcribe("https://www.youtube.com/watch?v=1NBfZcNU4O0").then((result) => {
-  console.log(result);
-});

@@ -49,6 +49,3 @@ async function transcribe(videoUrl) {
   }
 }
 export { transcribe };
-transcribe("https://www.youtube.com/watch?v=1NBfZcNU4O0").then((result) => {
-  console.log(result);
-});
