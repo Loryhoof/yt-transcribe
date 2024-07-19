@@ -31,6 +31,18 @@ transcribe(videoUrl).then(result => {
 });
 ```
 
+Another simplified example:
+
+```javascript
+import { transcribe } from 'yt-transcribe';
+
+const videoUrl = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'; // Replace with a real video URL
+
+const { transcript } = await transcribe(videoUrl);
+
+console.log('Transcript:', transcript);
+```
+
 ## API
 
 ### transcribe(videoUrl)
