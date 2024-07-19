@@ -1,8 +1,9 @@
 {
   "name": "yt-transcribe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple Node.js library to transcribe YouTube video captions",
   "main": "src/index.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
